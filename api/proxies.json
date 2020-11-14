@@ -7,7 +7,10 @@
                 "methods": ["GET"],
                 "route": "/api/services-html"
             },
-            "backendUri": "https://azure.microsoft.com/en-us/services/"
+            "backendUri": "https://azure.microsoft.com/en-us/services/",
+            "responseOverrides": {
+                "response.headers.set-cookie": ""
+            }
         }
     }
 }
