@@ -1,4 +1,13 @@
 {
-  "$schema": "http://json.schemastore.org/proxies",
-  "proxies": {}
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+
+        "services-html": {
+            "matchCondition": {
+                "methods": ["GET"],
+                "route": "/api/services-html"
+            },
+            "backendUri": "https://azure.microsoft.com/en-us/services/"
+        }
+    }
 }
