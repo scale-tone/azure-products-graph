@@ -32,7 +32,7 @@ jobs:
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env: 
-          APP_INSIGHTS_INSTRUMENTATION_KEY: secrets.APP_INSIGHTS_INSTRUMENTATION_KEY
+          REACT_APP_INSIGHTS_INSTRUMENTATION_KEY: '12345'
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
