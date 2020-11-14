@@ -1,6 +1,6 @@
 # Azure Products Graph
 
-![screenshot1](https://raw.githubusercontent.com/scale-tone/azure-products-graph/master/public/screenshots/overview.png)
+![screenshot1](https://raw.githubusercontent.com/scale-tone/azure-products-graph/master/public/screenshots/screen1.png)
 
 All known [Azure products and services](https://azure.microsoft.com/en-us/services) visualized in form of a graph. For absolutely no reason, except that it looks funny and also might be useful for memorizing and quick navigation.
 
