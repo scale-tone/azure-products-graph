@@ -8,5 +8,5 @@ See me in action here: https://jolly-ground-0673c6903.azurestaticapps.net.
 
 Data comes from https://azure.microsoft.com/en-us/services.
 
-Hosted with [Azure Static Web App](https://docs.microsoft.com/en-us/azure/static-web-apps/).
+Hosted with [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/).
 
