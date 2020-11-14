@@ -55,6 +55,7 @@ export class AppState {
                     var prevKeyword = '';
                     for (var keyword of keywords) {
 
+                        // eslint-disable-next-line
                         const node = nodes.find(n => n.id === keyword);
                         if (!node) {
                             nodes.push({ id: keyword, size: 200 });
@@ -63,6 +64,7 @@ export class AppState {
                         }
 
                         if (!!prevKeyword) {
+                            // eslint-disable-next-line
                             const link = links.find(l =>
                                 (l.source === prevKeyword && l.target === keyword) ||
                                 (l.target === prevKeyword && l.source === keyword)
