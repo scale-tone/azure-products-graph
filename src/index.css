@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
   font-family: 'Arial', 'Lucida Grande', sans-serif;
   -webkit-font-smoothing: antialiased;
