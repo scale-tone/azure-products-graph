@@ -161,7 +161,9 @@ export class AppState {
         if (!this._productsMap[keyword]) {
             this._productsMap[keyword] = [];
         }
-        this._productsMap[keyword].push(product);
+        if (!this._productsMap[keyword].some(p => p.title === product.title)) {
+            this._productsMap[keyword].push(product);
+        }
     }
 
     private getProducts(): Promise<IProduct[]>{
