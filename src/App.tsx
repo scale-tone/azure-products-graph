@@ -2,7 +2,7 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import styled from 'styled-components';
 
-import { AppBar, Box, Button, Menu, MenuItem, Slider, TextField, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Box, Button, LinearProgress, Menu, MenuItem, Slider, TextField, Toolbar, Typography } from '@material-ui/core';
 import { Graph } from "react-d3-graph";
 
 import logo from './logo.svg';
@@ -55,6 +55,8 @@ export default class App extends React.Component<{ state: AppState }> {
                     </FilterButton>
                 </Toolbar>
             </AppBar>
+
+            {!!state.inProgress && (<LinearProgress />)}
 
             <Menu
                 anchorEl={state.popupAnchorElement}
